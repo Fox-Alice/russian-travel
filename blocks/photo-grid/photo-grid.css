@@ -1,5 +1,4 @@
-.photo-grid {
-    
+.photo-grid {    
     display: grid;
     grid-template-columns: repeat(4, 22%);
     grid-template-rows: repeat(3, auto);
@@ -13,7 +12,7 @@
         display: grid;
         grid-template-columns: repeat(3, 29%);
         grid-template-rows: repeat(4, auto);
-        gap: 14px 14px;  
+        gap: 14px 14px;
     }
 }
 
@@ -22,7 +21,7 @@
         display: grid;
         grid-template-columns: repeat(2, 45.83%);
         grid-template-rows: repeat(6, auto);
-        gap: 16px 16px;             
+        gap: 16px 16px;
         }
     } 
  

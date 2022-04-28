@@ -2,7 +2,7 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 106%;
-    width: 46.75%;    
+    width: 46.75%;
     margin: 0;
     align-self: center;
     }
@@ -10,7 +10,7 @@
 @media screen and (max-width: 768px) {
     .place__title {
         font-size: 42px;
-        line-height: 110%;        
+        line-height: 110%;
         }
     }
     
@@ -20,12 +20,12 @@
         font-size: 36px;
         line-height: 109%;
         align-self: start;
-        margin-bottom: 10%;        
+        margin-bottom: 10%;
         }
     }
 
 @media screen and (max-width: 320px) {
     .place__title {        
-        font-size: 32px;       
+        font-size: 32px;
         }
     }

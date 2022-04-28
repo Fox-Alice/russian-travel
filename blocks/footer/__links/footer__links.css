@@ -1,12 +1,11 @@
-.footer__links {
-    
+.footer__links {    
 }
 
 @media screen and (max-width: 320px) {
     .footer__links {
         min-height: 248px;
         display: flex;
-        flex-direction: column;   
+        flex-direction: column;
              
     }
 }
