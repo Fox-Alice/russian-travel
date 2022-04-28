@@ -1,7 +1,7 @@
 .place {
     display: grid;
-    grid-template-columns: 46.75% 49.19% ;
-    grid-template-rows: repeat(3, auto);    
+    grid-template-columns: 46.75% 49.19%;
+    grid-template-rows: repeat(3, auto);
     gap: 4.87% 4.87%;
     margin-bottom: 9.35%;
  }
@@ -9,7 +9,7 @@
  @media screen and (max-width: 1024px) {
     .place {
         display: grid;
-    grid-template-columns: repeat(2, auto) ;
+    grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, auto);
     gap: 3.13% 3.13%;        
     }
@@ -18,7 +18,7 @@
  @media screen and (max-width: 768px) {
     .place {
         display: grid;
-    grid-template-columns: repeat(2, auto) ;
+    grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, auto);
     gap: 3.65% 3.65%;        
     }
