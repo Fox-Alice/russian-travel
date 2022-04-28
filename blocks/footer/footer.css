@@ -7,8 +7,8 @@
 
 @media screen and (max-width: 320px) {
     .footer {
-        width: 58.13%;  
-        flex-direction: column;        
+        width: 58.13%;
+        flex-direction: column;
         margin: 64px 0 24px 16px;
         min-height: 310px;       
     }

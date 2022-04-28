@@ -1,12 +1,12 @@
 .header {    
-    width: 92.5%;  
-    min-height: 52px;        
+    width: 92.5%;
+    min-height: 52px;
     margin: 2.19% 3.52% 4.77% 3.75%;
-    text-align: end;    
+    text-align: end;
 }
 
 @media screen and (max-width: 320px) {
     .header {        
-        width: 90%;               
+        width: 90%;
     }
 }
