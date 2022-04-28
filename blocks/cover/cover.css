@@ -1,0 +1,51 @@
+.cover {    
+    margin: 7.19% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    text-align: center;
+    background-image: url(../../images/cover-railway.png);
+    width: 92.5%;
+    min-height: 740px;
+    background-size: cover;
+    position: relative;
+}
+
+.cover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #2a2c2f;
+    opacity: .3;
+
+}
+
+.cover:hover::before {
+    opacity: .8;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .cover { 
+        width: 100%;
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover { 
+               
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        
+        min-height: 200px;
+    }
+}
