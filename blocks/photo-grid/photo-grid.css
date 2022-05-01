@@ -33,3 +33,9 @@
         margin: 0 auto 64px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .photo-grid {        
+        max-width: 288px;
+    }
+}
