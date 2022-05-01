@@ -3,3 +3,7 @@
     line-height: 16px;
     margin: 0;
 }
+
+.footer__copyright:hover {
+    opacity: .8;
+}

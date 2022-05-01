@@ -5,11 +5,10 @@
     margin: 0 auto 24px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     .footer {
         width: 58.13%;
         flex-direction: column;
         margin: 64px 0 24px 16px;
-        min-height: 310px;
     }
 }

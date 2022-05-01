@@ -22,13 +22,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .photo-grid__iteme {
-      max-width: 352px;
+    .photo-grid__item {
+      min-width: 352px;      
     }
 }
 
 @media screen and (max-width: 700px) {
-    .photo-grid__iteme {
+    .photo-grid__item {
       max-width: 480px;
     }
 }
