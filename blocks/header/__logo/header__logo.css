@@ -1,9 +1,8 @@
 .header__logo {    
-    min-height: 52px;
-    background-image: url(../../../images/header-logo.svg);
-    background-repeat: no-repeat;
+    min-height: 52px;    
+    repeat: no-repeat;
     max-width: 14.86%;
-    background-size: contain;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 1024px) {
@@ -26,10 +25,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .header__logo {
-        position: absolute;
-        top: 16px;
-        left: 16px;
+    .header__logo {        
         max-height: 42px;
         width: 49.31%;        
     }

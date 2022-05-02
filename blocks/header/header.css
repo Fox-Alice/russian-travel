@@ -1,4 +1,7 @@
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 92.5%;
     margin: 2.19% 3.52% 4.77% 3.75%;    
 }
