@@ -2,7 +2,7 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 106%;
-    width: 46.75%;
+    width: 100%;
     margin: 0;
     align-self: center;
     }
@@ -10,9 +10,8 @@
 
 @media screen and (max-width: 1024px) {
     .place__title {
-        max-width: 440px;
-        font-size: 42px;
-        line-height: 110%;
+        width: 100%;
+        max-width: 440px;        
         }
     }
 
@@ -20,21 +19,22 @@
     .place__title {
         font-size: 42px;
         line-height: 110%;
+        max-width: 340px;
         }
     }
     
 @media screen and (max-width: 600px) {
-    .place__title {
-        width: 90%;
+    .place__title { 
+        max-width: 300px;       
         font-size: 36px;
-        line-height: 109%;
-        align-self: start;
+        line-height: 109%;        
         margin: 0 0 0 16px;
         }
     }
 
 @media screen and (max-width: 320px) {
-    .place__title {        
+    .place__title {
+        max-width: 288px;
         font-size: 32px;
         }
     }

@@ -30,6 +30,7 @@
 
 @media screen and (max-width: 1024px) {
     .cover { 
+        margin: 92px auto;
         width: 100%;
         min-height: 640px;
     }
@@ -37,12 +38,14 @@
 
 @media screen and (max-width: 768px) {
     .cover {
+        margin: 90px 0 88px;
         min-height: 480px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover {
+        margin: 0 0 64px;
         width: 100%;
         min-height: 200px;
     }

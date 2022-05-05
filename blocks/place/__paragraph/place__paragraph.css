@@ -1,13 +1,13 @@
 .place__paragraph {
     width: 100%;
-    margin: 0 0 26px;
+    margin: 0 0 26px 0;
     max-width: 484px;
     font-size: 18px;
     line-height: 163%;
 }
 
 .place__paragraph:last-of-type {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 @media screen and (max-width: 1140px) {
@@ -24,13 +24,13 @@
  }
 
 @media screen and (max-width: 768px) {
-    .place__paragraph {      
+    .place__paragraph {
+      max-width: 352px;
       font-size: 16px;
-      line-height: 163%;
     }
- }
+}
 
- @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .place__paragraph { 
         max-width: 288px;
     }

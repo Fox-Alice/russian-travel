@@ -3,13 +3,13 @@
     line-height: 120%;
     width: 50%;
     text-align: center;
-    margin: 2.5% auto 5%;
+    margin: 3.25% auto 6.5%;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__subtitle {   
         width: 62.5%;
-        margin: 3.13% auto 5.47%;
+        margin: 32px auto 56px;
     }
  }
 
