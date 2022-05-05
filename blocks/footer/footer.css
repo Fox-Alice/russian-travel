@@ -17,6 +17,6 @@
     .footer {
         width: 100%;
         max-width: 288px;
-        flex-direction: column;        
+        flex-direction: column;
     }
 }
